@@ -12,42 +12,59 @@
   height: 100vh;
 }
 
-.HeaderAll {
+.header-all {
   background: yellow;
   padding: 1em;
   flex-grow: 0;
 }
 
-.FiltersList {
+.filters-list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.Filter {
+.filter {
   background: green;
   padding: 0.5em;
   margin: 1em 1em 0 0;
   color: white;
+  border-radius: 0.5em;
 }
 
-.GalleriesList {
+.galleries-list {
   background: lightcoral;
   flex-grow: 1;
   overflow: auto;
 }
 
-.Gallery {
+.gallery {
   background: lightblue;
   margin: 1em;
   padding: 0.7em;
+  border-radius: 1em;
   display: flex;
 }
 
-.Image {
+.image {
   width: 100px;
   height: 100px;
-  padding-right: 0.7em;
+  border: 1px solid white;
+  margin-right: 0.7em;
+  border-radius: 0.7em;
 }
 
-.Name {
+.name {
+  /* background: orange; */
+}
+
+.categories {
+  margin: 0 !important;
+}
+
+.categories .filter {
+  margin: 0.5em 0.5em 0 0.3em;
+}
+
+.description {
+  margin-top: 0.7em;
 }

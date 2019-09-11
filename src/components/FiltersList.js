@@ -3,7 +3,7 @@ import Filter from "./Filter";
 
 export default function FiltersList() {
   return (
-    <div className="FiltersList">
+    <div className="filters-list">
       <Filter />
       <Filter />
       <Filter />
