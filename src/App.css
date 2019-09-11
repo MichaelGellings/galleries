@@ -1,33 +1,53 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+}
+
+.HeaderAll {
+  background: yellow;
+  padding: 1em;
+  flex-grow: 0;
+}
+
+.FiltersList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Filter {
+  background: green;
+  padding: 0.5em;
+  margin: 1em 1em 0 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.GalleriesList {
+  background: lightcoral;
+  flex-grow: 1;
+  overflow: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Gallery {
+  background: lightblue;
+  margin: 1em;
+  padding: 0.7em;
+  display: flex;
+}
+
+.Image {
+  width: 100px;
+  height: 100px;
+  padding-right: 0.7em;
+}
+
+.Name {
 }

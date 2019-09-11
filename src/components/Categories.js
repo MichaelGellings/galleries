@@ -1,15 +1,9 @@
 import React from "react";
 import Filter from "./Filter";
 
-export default function FiltersList() {
+export default function Categories() {
   return (
     <div className="FiltersList">
-      <Filter />
-      <Filter />
-      <Filter />
-      <Filter />
-      <Filter />
-      <Filter />
       <Filter />
       <Filter />
     </div>
