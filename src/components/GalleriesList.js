@@ -8,6 +8,7 @@ export default function GalleriesList() {
       <Gallery />
       <Gallery />
       <Gallery />
+      <Gallery />
     </div>
   );
 }
