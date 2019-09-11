@@ -7,9 +7,9 @@ import Filter from "./Filter";
 
 export default function Gallery() {
   return (
-    <div className="Gallery">
+    <div className="gallery">
       <Image />
-      <div className="Info">
+      <div className="info">
         <Name />
         <Categories>
           <Filter />
