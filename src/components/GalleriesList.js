@@ -3,8 +3,9 @@ import Gallery from "./Gallery";
 
 export default function GalleriesList() {
   return (
-    <div>
-      GalleriesList
+    <div className="GalleriesList">
+      <Gallery />
+      <Gallery />
       <Gallery />
       <Gallery />
     </div>
