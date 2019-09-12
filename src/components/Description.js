@@ -1,10 +1,5 @@
 import React from "react";
 
-export default function Description() {
-  return (
-    <div className="description">
-      Dies ist eine kurze Beschreibung: Was ist das Besondere an dieser
-      Gallerie?
-    </div>
-  );
+export default function Description(props) {
+  return <div className="description">{props.description}</div>;
 }

@@ -1,7 +1,11 @@
 import React from "react";
 
-export default function Image() {
+export default function Image(props) {
   return (
-    <img source="" alt="Hier sollte ein Bild erscheinen" className="image" />
+    <img
+      src={props.imgSrc}
+      alt="Hier sollte ein Bild erscheinen"
+      className="image"
+    />
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Filter() {
-  return <div className="filter">Filter</div>;
+export default function Filter(props) {
+  return <div className={"filter " + props.category}>{props.category}</div>;
 }

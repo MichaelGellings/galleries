@@ -1,17 +1,13 @@
 import React from "react";
 import Filter from "./Filter";
+import { categories } from "../api/categories";
 
 export default function FiltersList() {
   return (
     <div className="filters-list">
-      <Filter />
-      <Filter />
-      <Filter />
-      <Filter />
-      <Filter />
-      <Filter />
-      <Filter />
-      <Filter />
+      {categories.map(category => {
+        return <Filter key={category} category={category} />;
+      })}
     </div>
   );
 }

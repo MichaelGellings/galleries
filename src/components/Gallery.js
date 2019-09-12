@@ -3,19 +3,16 @@ import Image from "./Image";
 import Name from "./Name";
 import Description from "./Description";
 import Categories from "./Categories";
-import Filter from "./Filter";
 
-export default function Gallery() {
+export default function Gallery(props) {
   return (
     <div className="gallery">
-      <Image />
+      <Image imgSrc={props.gallery.imgSrc} />
       <div className="info">
-        <Name />
-        <Categories>
-          <Filter />
-          <Filter />
-        </Categories>
-        <Description />
+        {/* {props.gallery.name} */}
+        <Name name={props.gallery.name} />
+        <Categories categories={props.gallery.categories} />
+        <Description description={props.gallery.description} />
       </div>
     </div>
   );
