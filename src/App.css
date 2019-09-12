@@ -62,10 +62,12 @@
 
 .image {
   height: 100px;
+  width: 100px;
   background: #f0d0d0;
   margin-right: 0.7em;
   border-radius: 0.7em;
   flex: 0 0 100px;
+  object-fit: cover;
 }
 
 .categories {
@@ -86,9 +88,10 @@
     width: 320px;
   }
   .image {
-    width: auto;
+    width: 100%;
     height: 250px !important;
     flex: 0 0 250px;
+    object-fit: cover;
   }
   .name {
     margin-top: 0.7em;
@@ -97,30 +100,30 @@
 
 /* Colors for Filter Categories */
 
-.Photo {
+.photo {
   background: #880;
 }
 
-.Gemälde {
+.painting {
   background: #480;
 }
 
-.Zeichnung {
+.drawing {
   background: #084;
 }
 
-.Druck {
+.print {
   background: #484;
 }
 
-.Media {
+.media {
   background: #088;
 }
 
-.Skulptur {
+.sculpture {
   background: #4b8;
 }
 
-.Experimental {
+.experimental {
   background: #8b8;
 }

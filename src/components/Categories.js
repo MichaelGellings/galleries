@@ -5,7 +5,7 @@ export default function Categories(props) {
   return (
     <div className="filters-list categories">
       {props.categories.map(category => {
-        return <Filter key={category} category={category} />;
+        return <Filter key={category.id} category={category} />;
       })}
     </div>
   );

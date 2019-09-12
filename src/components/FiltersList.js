@@ -6,7 +6,7 @@ export default function FiltersList() {
   return (
     <div className="filters-list">
       {categories.map(category => {
-        return <Filter key={category} category={category} />;
+        return <Filter key={category.id} category={category} />;
       })}
     </div>
   );
