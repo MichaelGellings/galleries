@@ -42,7 +42,6 @@
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: center;
-  /* align-items: stretch; */
 }
 
 .gallery {
@@ -83,6 +82,14 @@
 }
 
 @media (min-width: 560px) {
+  .header-all {
+    padding: 30px 48px;
+  }
+
+  .galleries-list {
+    justify-content: flex-start;
+    margin: 30px;
+  }
   .gallery {
     flex-direction: column;
     width: 320px;

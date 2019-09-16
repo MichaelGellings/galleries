@@ -4,9 +4,12 @@ import Header from "./components/Header";
 import GalleriesList from "./components/GalleriesList";
 
 function App() {
+  function handleFilterChange(filter, label) {
+    console.log(filter, label);
+  }
   return (
     <div className="App">
-      <Header />
+      <Header onFilterChange={handleFilterChange} />
       <GalleriesList />
     </div>
   );
