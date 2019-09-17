@@ -4,15 +4,17 @@ import Header from "./components/Header";
 import GalleriesList from "./components/GalleriesList";
 
 function App() {
-  const [selectedFilter, setSelectedFiler] = React.useState(null);
+  const [selectedFilters, setSelectedFilters] = React.useState([]);
   function handleFilterChange(filterID, label) {
     console.log(filterID, label);
-    setSelectedFiler(filterID);
+    let tempFilters = selectedFilters.slice();
+    tempFilters.push(filterID);
+    setSelectedFilters(tempFilters);
   }
   return (
     <div className="App">
       <Header onFilterChange={handleFilterChange} />
-      <GalleriesList selectedFilter={selectedFilter} />
+      <GalleriesList selectedFilters={selectedFilters} />
     </div>
   );
 }
