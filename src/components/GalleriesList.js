@@ -13,6 +13,7 @@ export default function GalleriesList({ selectedFilters }) {
       .includes(true);
   }
   const filteredGalleries = galleries.filter(gallery => {
+    if (selectedFilters.length === 0) return true;
     return blabla(gallery);
 
     // return selectedFilters.find(filter => {
