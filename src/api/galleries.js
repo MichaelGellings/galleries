@@ -55,5 +55,21 @@ export const galleries = [
     ],
     description: "",
     rating: 4.8
+  },
+  {
+    imgSrc: "",
+    name: "Mensing",
+    categories: [
+      {
+        id: "painting",
+        name_DE: "Gemälde"
+      },
+      {
+        id: "sculpture",
+        name_DE: "Skulptur"
+      }
+    ],
+    description: "Bunter, von Pop Art inspirierter Mix.",
+    rating: 2.9
   }
 ];

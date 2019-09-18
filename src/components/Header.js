@@ -7,7 +7,10 @@ export default function Header(props) {
       <div>
         <h1>Galleries around WMP</h1>
       </div>
-      <FiltersList onFilterChange={props.onFilterChange} />
+      <FiltersList
+        onFilterChange={props.onFilterChange}
+        selectedFilters={props.selectedFilters}
+      />
     </div>
   );
 }

@@ -8,12 +8,18 @@ function App() {
   function handleFilterChange(filterID, label) {
     console.log(filterID, label);
     let tempFilters = selectedFilters.slice();
-    tempFilters.push(filterID);
+    // toggle Filter:
+    let index = tempFilters.indexOf(filterID);
+    index >= 0 ? tempFilters.splice(index, 1) : tempFilters.push(filterID);
     setSelectedFilters(tempFilters);
   }
+
   return (
     <div className="App">
-      <Header onFilterChange={handleFilterChange} />
+      <Header
+        onFilterChange={handleFilterChange}
+        selectedFilters={selectedFilters}
+      />
       <GalleriesList selectedFilters={selectedFilters} />
     </div>
   );

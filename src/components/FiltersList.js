@@ -11,6 +11,7 @@ export default function FiltersList(props) {
             key={category.id}
             category={category}
             onFilterChange={props.onFilterChange}
+            selectedFilters={props.selectedFilters}
           />
         );
       })}
