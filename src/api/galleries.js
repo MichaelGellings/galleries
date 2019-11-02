@@ -71,5 +71,17 @@ export const galleries = [
     ],
     description: "Bunter, von Pop Art inspirierter Mix.",
     rating: 2.9
+  },
+  {
+    imgSrc: "",
+    name: "ART Gallery 7",
+    categories: [
+      {
+        id: "experimental",
+        name_DE: "Experimental"
+      }
+    ],
+    description: "Minimalistisch anders.",
+    rating: 3.8
   }
 ];
