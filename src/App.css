@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  overflow: auto;
   color: #222;
 }
 
@@ -20,6 +21,8 @@
   color: #fff;
   padding: 1em;
   flex-grow: 0;
+  position: sticky;
+  top: -4em;
 }
 
 .filters-list {
@@ -28,16 +31,10 @@
 }
 
 .filter {
-  background: #666;
-  padding: 0.5em;
-  margin: 1em 1em 0 0;
-  color: white;
-  border-radius: 0.5em;
 }
 
 .galleries-list {
   flex-grow: 1;
-  overflow: auto;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -103,34 +100,4 @@
   .name {
     margin-top: 0.7em;
   }
-}
-
-/* Colors for Filter Categories */
-
-.photo {
-  background: #880;
-}
-
-.painting {
-  background: #480;
-}
-
-.drawing {
-  background: #084;
-}
-
-.print {
-  background: #484;
-}
-
-.media {
-  background: #088;
-}
-
-.sculpture {
-  background: #4b8;
-}
-
-.experimental {
-  background: #8b8;
 }
