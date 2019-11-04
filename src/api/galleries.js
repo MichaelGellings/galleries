@@ -1,6 +1,6 @@
 export const galleries = [
   {
-    imgSrc: "../../img/YellowKorner.jpg",
+    imgSrc: "img/YellowKorner.jpg",
     name: "YellowKorner",
     categories: [
       {
@@ -14,7 +14,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/Lumas.jpeg",
+    imgSrc: "img/Lumas.jpeg",
     name: "Lumas",
     categories: [
       {
@@ -27,7 +27,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/CarreDArtistes.jpg",
+    imgSrc: "img/CarreDArtistes.jpg",
     name: "Carré d'Artistes",
     categories: [
       {
@@ -40,7 +40,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/Mensing.jpg",
+    imgSrc: "img/Mensing.jpg",
     name: "Mensing",
     categories: [
       {
@@ -57,7 +57,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/ART_Galerie_7.png",
+    imgSrc: "img/ART_Galerie_7.png",
     name: "ART Galerie 7",
     categories: [
       {
@@ -74,7 +74,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/Biesenbach.jpg",
+    imgSrc: "img/Biesenbach.jpg",
     name: "Galerie Biesenbach",
     categories: [
       {
@@ -91,7 +91,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/vanderGrinten.jpg",
+    imgSrc: "img/vanderGrinten.jpg",
     name: "Van der Grinten",
     categories: [
       {
@@ -116,7 +116,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/BrigitteSchenk.jfif",
+    imgSrc: "img/BrigitteSchenk.jfif",
     name: "Brigitte Schenk",
     categories: [
       {
@@ -134,7 +134,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/PriskaPasquer.jpg",
+    imgSrc: "img/PriskaPasquer.jpg",
     name: "Priska Pasquer",
     categories: [
       {
@@ -163,7 +163,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/ZeroFold.jpg",
+    imgSrc: "img/ZeroFold.jpg",
     name: "Zero Fold",
     categories: [
       {
@@ -188,7 +188,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/100Kubik.jpg",
+    imgSrc: "img/100Kubik.jpg",
     name: "100 Kubik",
     categories: [
       {
@@ -213,7 +213,7 @@ export const galleries = [
   },
 
   {
-    imgSrc: "../../img/Osper.jpg",
+    imgSrc: "img/Osper.jpg",
     name: "Osper",
     categories: [
       {

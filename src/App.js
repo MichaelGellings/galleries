@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import GalleriesList from "./components/GalleriesList";
+import MGFooter from "./components/MGFooter";
 
 function App() {
   const [selectedFilters, setSelectedFilters] = React.useState([]);
@@ -21,6 +22,7 @@ function App() {
         selectedFilters={selectedFilters}
       />
       <GalleriesList selectedFilters={selectedFilters} />
+      <MGFooter />
     </div>
   );
 }

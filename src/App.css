@@ -30,9 +30,6 @@
   flex-wrap: wrap;
 }
 
-.filter {
-}
-
 .galleries-list {
   flex-grow: 1;
   display: flex;
@@ -100,4 +97,29 @@
   .name {
     margin-top: 0.7em;
   }
+}
+
+/* Formats for MG Web Development portfolio footer */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+.row--portfolio {
+  background: #2a293e;  /* evening blue */
+  color: #fff;
+  line-height: 34px;
+  margin-top: 68px;
+}
+.row--portfolio .logo {
+  width: 24px;
+  height: 24px;
+}
+.row--portfolio .portfolio-link {
+  color: #fff;
+  text-decoration: none;
+}
+.row--portfolio .portfolio-link:visited {
+  color: #fff;
 }
